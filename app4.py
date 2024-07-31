@@ -126,4 +126,4 @@ for index in range(lastrow):
         img.height = 100
         copy_ws.add_image(img, "P5")
 
-wb.save(output_folder)
+wb.save(output_file)
